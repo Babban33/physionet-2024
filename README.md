@@ -13,6 +13,32 @@ Our algorithms were developed and evaluated using the PTBXL dataset and the WFDB
 - **`challenge-2` Folder:** Contains the implementation for Event 2, focusing on classifying ECGs as normal or abnormal.
   - Refer to the `challenge-2/readme.md` file for detailed instructions and insights pertaining to this event.
 
+## Running Scripts
+
+**Step 1: Install Virtual Environment package**:
+
+``` pip install virtualenv```
+
+**Step 2: Create Virtual ENvironmnet**:
+
+``` virtualenv dep```
+
+**Note**: replace *dep* with your virtual env name.
+
+**Step 3: Activate Virtual Environment**:
+
+``` 
+    cd dep
+    Scripts/activate
+    cd ..
+```
+
+**Step 4: Run Python files in given sequence**:
+
+``` python csvtowave.py ```
+
+``` python test.py ```
+
 ## Usage
 Each folder (`challenge-1` and `challenge-2`) contains its own set of instructions, scripts, and documentation to guide users on how to replicate our results, run the algorithms, and interact with the provided codebase. Please refer to the respective `readme.md` files within each folder for specific usage instructions.
 
